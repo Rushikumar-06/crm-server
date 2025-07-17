@@ -12,7 +12,7 @@ const contactRoutes = require('./routes/contactRoutes');
 const tagRoutes = require('./routes/tags');
 const dashboardRoutes = require('./routes/dashboard');
 const activityRoutes = require('./routes/activities');
-const allowedOrigins = ['http://localhost:3000', 'https://crm-client-dusky.vercel.app/login'];
+const allowedOrigins = ['http://localhost:3000', 'https://crm-client-dusky.vercel.app'];
 
 dotenv.config();
 connectDB();
