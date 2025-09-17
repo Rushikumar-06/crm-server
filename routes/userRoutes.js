@@ -3,7 +3,6 @@ const multer = require('multer');
 const router = express.Router();
 const verifyToken = require('../middleware/authMiddleware');
 const User = require('../models/User');
-
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
